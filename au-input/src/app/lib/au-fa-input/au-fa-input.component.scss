@@ -1,29 +1,4 @@
-au-fa-input {
-  background: white;
-  border: 1px solid lightgray;
-  padding: 1px 0;
-  display: inline-block;
+@import "common";
 
-  .icon {
-    width: 20px;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 2px;
-  }
+@import "au-fa-input-default-theme";
 
-  input {
-    border: none;
-    outline: none;
-    height: 100%;
-    margin: 1px 0;
-    box-sizing: border-box;
-  }
-
-}
-
-au-fa-input.input-focus {
-  outline: none;
-  border: 1px solid #4D90FE;
-  -webkit-box-shadow: #4D90FE;
-  box-shadow: 0 0 5px #4D90FE;
-}
