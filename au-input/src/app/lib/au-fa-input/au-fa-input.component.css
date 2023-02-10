@@ -32,4 +32,23 @@ au-fa-input.input-focus {
   box-shadow: 0 0 5px #4D90FE;
 }
 
+.au-fa-input-red-theme au-fa-input {
+  border-color: indianred;
+}
+.au-fa-input-red-theme au-fa-input.input-focus {
+  border-color: red;
+  -webkit-box-shadow: red;
+  box-shadow: 0 0 5px red;
+}
+
+au-fa-input.au-fa-input-red-theme {
+  border-color: indianred;
+}
+
+au-fa-input.input-focus.au-fa-input-red-theme {
+  border-color: red;
+  -webkit-box-shadow: red;
+  box-shadow: 0 0 5px red;
+}
+
 /*# sourceMappingURL=au-fa-input.component.css.map */
